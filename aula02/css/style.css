@@ -1,12 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Petit+Formal+Script&display=swap');
 body{
     background-color: magenta; 
 }
 h1{
     color: white;
-    font-size: 35px;
+    font-size: 50px;
     text-align: center;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Petit Formal Script', cursive;
 }
+
+
 h3{
     color: white;
     font-size: 25px;
