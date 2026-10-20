@@ -1,0 +1,41 @@
+
+body
+{
+    margin: 0;
+    background-image: url(../imgs/fundo.jpg);
+    background-size: cover;
+}
+#blocos{
+    display: grid;
+    grid-template-columns: 30% 70%;
+    column-gap: 1px;
+
+
+}
+.bloco1{
+    position: relative;
+    margin-bottom: 200px;
+ margin-left: 200px;
+background-image: url(../imgs/wp5611860.jpg);
+background-size: cover;
+height: 800px;
+width: 1300px;
+text-align: center;
+color: white;
+font-size: 50px;
+line-height: 800px;
+}
+.bloco2{
+    position: relative;
+    margin-bottom: 300px;
+    margin-left: 800px;
+    background-image: url(../imgs/aizawa.webp);
+    background-size: cover;
+    height: 800px;
+    width: 1300px;
+    text-align: center;
+    color: white;
+    font-size: 40px;
+    line-height: 800px;
+    
+}

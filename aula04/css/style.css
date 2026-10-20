@@ -1,0 +1,18 @@
+#imagens {
+display: grid;
+text-align: center;
+grid-template-columns: repeat(3, 1fr);
+column-gap: 20px;
+
+}
+.f1{
+background-color: #cc0202;
+
+}
+.f2{
+background-color: #000000;
+
+}
+.f3{
+background-color: #2000d6;
+}
