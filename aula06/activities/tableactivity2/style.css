@@ -1,0 +1,11 @@
+table{
+    background-color: rgb(32, 32, 32);
+    width: 1500px
+    
+}
+th, td{
+    padding: 10px;
+    text-align: start;
+    color: white
+
+}

@@ -1,0 +1,44 @@
+table{
+    width: 1000px;
+    height: 150px;
+    border-collapse: collapse;}
+    th{
+        font-family: 'Arial', sans-serif;
+        font-size: 14px;
+text-align: start;
+    padding-top: 7px;
+    padding-left: 8px;
+    padding-bottom: 10px;
+    color: rgb(112, 137, 139);
+    }
+    td{
+        font-family: 'Arial', sans-serif;
+        font-size: 14px;
+        text-align: start;
+    padding-top: 7px;
+    padding-left: 8px;
+    padding-bottom: 10px;
+    border-top: 1px solid rgb(240, 238, 238);
+    border-bottom: 1px solid rgb(240, 238, 238);
+    }
+    .badge1 {
+  background-color: rgb(240, 197, 197);
+  color: rgb(163, 44, 44);
+  padding: 4px 8px;
+  text-align: center;
+  border-radius: 20px;
+}
+ .badge2 {
+  background-color: rgb(240, 239, 169);
+  color: rgb(100, 100, 38);
+  padding: 4px 8px;
+  text-align: center;
+  border-radius: 20px;
+}
+ .badge3 {
+  background-color: rgb(211, 241, 211);
+  color: green;
+  padding: 4px 8px;
+  text-align: center;
+  border-radius: 20px;
+}
