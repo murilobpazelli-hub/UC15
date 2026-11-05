@@ -1,0 +1,50 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+table{
+    width: 1900px;
+    height: 500px;
+    border-collapse: collapse;
+   
+}
+
+thead th{
+    text-transform: uppercase;
+    background-color: #040425;
+    text-align: start;
+    height: 60px;
+    color: white;
+    border-bottom: rgb(146, 145, 145) 1px solid;
+   
+}
+thead :first-child{
+    border-top-left-radius: 15px;
+}
+thead :last-child{
+    
+    border-top-right-radius: 15px;
+}
+tbody th{
+    background-color: #f1f1f5;
+    text-align: start;
+    height: 60px;
+     border-top: 1px solid rgb(219, 210, 210);
+    border-bottom: 1px solid rgb(177, 169, 169);
+   
+}
+tbody th:first-child{
+     border-bottom-left-radius: 15px;
+    
+}
+.badge1{
+background-color: rgb(211, 241, 211);
+  color: green;
+  padding: 4px 8px;
+  border-radius: 5px;
+}
+.badge2{
+     background-color: rgb(240, 197, 197);
+  color: rgb(163, 44, 44);
+  padding: 4px 8px;
+  border-radius: 5px;
+}
