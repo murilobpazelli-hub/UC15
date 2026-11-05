@@ -1,0 +1,49 @@
+*{
+    
+    margin: 0;
+    padding: 0;
+}
+.logo{
+    width: 400px;
+    height: 250px;   
+}
+.categoria{
+    padding-top: 140px;
+    display: flex; /* Define o contêiner como um flex container */
+    align-items: flex-start; /* Alinha os itens no início do eixo transversal */
+    justify-content: space-between; /* Distribui o espaço entre os elementos de forma igual */
+}
+.menu-principal ul{
+    list-style: none; /* Remove os marcadores da lista */
+}
+.menu-principal ul li{
+    display: inline-block; /* Exibe os itens da lista em linha */
+}
+.menu-principal ul li a{
+    background-color: white; /* Define a cor de fundo como transparente */
+    color: rgb(37, 24, 224); /* Define a cor do texto */
+    text-decoration: none; /* Remove o sublinhado dos links */
+   text-transform: uppercase; /* Transforma o texto em maiúsculas */
+    padding: 10px 15px; /* Adiciona espaçamento interno aos links */
+    border: 1px solid transparent; /* Adiciona uma borda ao redor dos links */
+    transition: 0.6s ease; /* Adiciona um tempo de transição suave*/
+      border-radius: 15px; /* Adiciona cantos arredondados à borda */
+
+}
+.menu-principal ul li a:hover /* Hover: Define o estilo do link quando o mouse passa sobre ele */
+{
+    transition: 0.6s ease; /* Adiciona uma transição suave*/
+    color: white; /* Altera a cor do texto ao passar o mouse */
+    background-color: rgb(0, 0, 0) ; /* Altera a cor de fundo ao passar o mouse */
+  
+}
+#pagina-home{
+   
+    height: 413px;
+    background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)), url(../imgs/movie.jpg);
+    background-size: cover;
+    background-position: center;
+}
+body{
+    background-color: rgba(38, 34, 90, 0.952);
+}
