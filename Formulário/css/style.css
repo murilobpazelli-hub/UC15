@@ -5,7 +5,7 @@ body {
   font-style: normal;
   margin: 0;
   padding: 0;
-  min-height: 100vh; /*= Altura mínima da página - vh - tamanho responsividade, permitindo que defina o tamanho em diferentes plataformas */
+  min-height: 100vh; /*= Altura mínima da página - vh - tamanho responsividade, permitindo que defina o tamanho minimo em diferentes plataformas */
  box-sizing: border-box; /* Caixa para o formulário*/
  display: flex;
  flex-direction: column;
@@ -36,7 +36,7 @@ h2{
     border-radius: 35px;
     color: black;
     flex-direction: column;
-    max-width: 600px;
+    max-width: 600px; /*= Largura máxima da página - vh - tamanho responsividade, permitindo que defina o tamanho máximo em diferentes plataformas */
     
 }
 .botao{
