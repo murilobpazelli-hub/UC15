@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Carter+One&family=DynaPuff:wght@400..700&family=Erica+One&family=Iceland&family=Kaushan+Script&family=Oi&family=Oswald:wght@200..700&family=Tac+One&display=swap');
+body {
+  font-family: "Iceland", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  margin: 0;
+  padding: 0;
+  min-height: 100vh; /*= Altura mínima da página - vh - tamanho responsividade, permitindo que defina o tamanho em diferentes plataformas */
+ box-sizing: border-box; /* Caixa para o formulário*/
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+}
+h1{
+    padding-top: 50px;
+    margin: 0;
+    text-align: center;
+    color: black;
+    font-size: 100px;
+}
+h2{
+    padding-bottom: 50px;
+    margin: 0;
+    text-align: center;
+    color: gray;
+    font-size: 20px;
+}
+.campo{
+    display: flex; /* Flexível - Ajusta */
+    flex-direction: column; /* Coluna */
+}
+.formulario{
+    background-color: aquamarine;
+    padding: 50px 70px;
+    border: 4px solid black;
+    border-radius: 35px;
+    color: black;
+    flex-direction: column;
+    max-width: 600px;
+    
+}
+.botao{
+    padding-top: 50px;
+    display: flex;
+    justify-content: center;
+}
+.button{
+    background-color: aqua;
+    color: rgb(0, 0, 0);
+    border: none;
+    padding: 20px 50px;
+    border-radius: 10px;
+    cursor: pointer; /* Transforma cursor em opção de clique */
+    font-size: 15px;
+}
+input{
+    padding: 10px 10px;
+    border-radius: 10px;
+    border: 1px solid black;
+}
+select{
+    padding: 10px 10px;
+    border-radius: 10px;
+    border: 1px solid black
+}
+button:hover{
+    transition: background-color 0.4s ease, color 0.4s ease, border 0.3s ease;
+    background-color: rgb(129, 255, 255);
+    color: black;
+    border: 1px solid black;
+}
+#upload{
+    margin: 10px;
+    border: none;
+    cursor: pointer;
+}
+
+#upload::file-selector-button{
+    margin-right: 10px;
+    padding: 5px 5px;
+    border-radius: 10px;
+    cursor: pointer;
+    background-color: blueviolet;
+    color:rgb(0, 0, 0)
+}

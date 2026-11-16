@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Formulário</title>
+</head>
+
+<body>
+    <div class="cabecalho">
+        <h1>Formulário</h1>
+        <h2>Preencha os campos abaixo</h2>
+    </div>
+    <div class="formulario">
+    <form action="" method="POST">  <!-- POST / GET: Ambos enviam dados para formulários. A diferência é que o POST é visivel na página, enquanto o GET é escondido onde está seu banco de dados. POST não há limites de tamanho, enquanto o GET tem um limite de 3000 caracteres -->
+        <div class="campo">
+            <label for="nome">Nome Completo: <br></label>
+            <input type="text" id="nome"  name="nome" placeholder="Digite aqui :)" size="40" required> <!-- id = Pega dados do CSS. name: Pega dados do banco de dados-->
+            <br>
+            <br>
+            <label for="cidade">Cidade: <br></label>
+            <input type="text" id="cidade" name="cidade" placeholder="Digite aqui também :)" size="40" required>
+            <br>
+            <br>
+            <label for="email">E-Mail: <br></label>
+            <input type="text" id="email" name="email" placeholder="Digite aqui novamente :)" size="40" required>
+            <br>
+            <br>
+            <label for="senha">Senha: <br></label>
+            <input type="password" id="senha" name="senha" placeholder="Digite aqui novamente :)" size="40" required>
+            <br>
+            <br>
+            <label for="data">Data de Nascimento: <br></label>
+            <input type="date" id="data" name="data" placeholder="Digite o dia que nasceu :)" size="40" required>
+            <br>
+            <br>
+            <label for="telefone">Telefone: <br></label>
+            <input type="tel" id="telefone" name="telefone" placeholder="(##) ####-####" size="40" required>
+            <br>
+            <br>
+        </div>
+        <div class="campo">
+            <label for="estado">Estado: <br></label>
+            <select id="estado " name="estado" required>
+                <option>Rio de Janeiro</option>
+                <option>São Paulo</option>
+                <option>Minas Gerais</option>
+                <option>Ceará</option>
+            </select>
+            <br>
+            <br>
+        </div>
+        <div class="campo">
+            <label for="titulo-campo">Turno de preferência: <br></label>
+            <label class="opcao">
+                <input type="radio" name="turno" value="manha" required> Manhã
+            </label>
+            <label class="opcao">
+                <input type="radio" name="turno" value="tarde"> Tarde
+            </label>
+            <label class="opcao">
+                <input type="radio" name="turno" value="noite"> Noite
+            </label>
+            <br>
+            <br>
+        </div>
+        <div class="campo">
+            <label for="titulo-campo">Áreas de Interesse: <br></label>
+            <label class="opcao">
+                <input type="checkbox" name="interesses" value="tecnologia"> Tecnologia
+            </label>
+            <label class="opcao">
+                <input type="checkbox" name="interesses" value="design"> Design
+            </label>
+            <label class="opcao">
+                <input type="checkbox" name="interesses" value="marketing"> Marketing
+            </label>
+            <br>
+            <br>
+        </div>
+        <div class="campo">
+            <label for="obs">Observações<br></label>
+            <textarea id="obs" name="obs" rows="3" size="60" placeholder="Escreva aqui ;)">
+            </textarea>
+            <br>
+            <br>
+        </div>
+        <div class="upload">   
+        <label for="imageUpload">Escolha uma imagem: <br></label>
+           <input type="file" id="imageUpload" name="image" accept="image/png, image/jpeg">
+        </div>
+        <div class="botao">
+        <button class="button" type="submit" >Enviar</button>
+        </div>
+    </form>
+</div>
+</body>
+</html>
