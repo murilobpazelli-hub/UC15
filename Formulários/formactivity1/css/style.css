@@ -1,0 +1,32 @@
+body{
+    text-align: center;
+}
+form{
+    width:500px;
+height: 800px;
+  display: grid;
+border: 1px solid black;
+
+
+}
+
+label, input
+{
+grid-template-columns: repeat(2, 1fr);
+grid-gap: 20px;
+
+}
+.botao{
+    padding-top: 50px;
+    display: flex;
+    justify-content: center;
+}
+.button{
+    background-color: rgba(8, 179, 2, 0.952);
+    color: rgb(255, 255, 255);
+    border: none;
+    padding: 10px 60px;
+    border-radius: 5px;
+    cursor: pointer; /* Transforma cursor em opção de clique */
+    font-size: 15px;
+}
